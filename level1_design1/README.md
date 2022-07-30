@@ -71,7 +71,7 @@ switch case is logic is incorrect:
       5'b11010: out = inp26;
       5'b11011: out = inp27;
       5'b11100: out = inp28;
-      5'b11101: out = inp29;      // ->bug 5'b11110: out = inp30; is not mentioned 
+      5'b11101: out = inp29;      \\ ->bug 5'b11110: out = inp30; is not mentioned 
       default: out = 0;
     endcase
 ```
