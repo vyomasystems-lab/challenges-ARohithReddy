@@ -45,9 +45,4 @@ dut's output is different from the expected output for the following set of inpu
 110100  110  010011
 110100  111  010011
 ```
-## design bug
 
-
-## test strategy
-
-## is the Verification complete?
