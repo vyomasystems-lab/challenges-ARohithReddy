@@ -19,6 +19,6 @@ async def test_mul(dut):
             dut.b.value = in_b
             await Timer(2, units="ns")
             if int(dut.prod.value) != in_a*in_b:
-                print("expected value = ",in_a*in_b,"dut output = ",int(dut.prod.value))
+                print("a=",in_a,"b=",in_b,"expected value = ",in_a*in_b,"dut output = ",int(dut.prod.value))
 
     #cocotb.log.info('##### CTB: Develop your test here ########')
